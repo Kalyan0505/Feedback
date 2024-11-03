@@ -16,16 +16,6 @@ unhappyFeedback.addEventListener("click", function () {
     document.querySelector(".submitted-feedback-happy").style.display = "none";
     document.querySelector(".container").style.display = "none";
   });
-
-  document
-    .querySelector(".submitted-feedback-unhappy")
-    .addEventListener("click", function (e) {
-      document.querySelector(".container").style.display = "block";
-      document.querySelector(".container").style.display = "flex";
-
-      document.querySelector(".submitted-feedback-unhappy").style.display =
-        "none";
-    });
 });
 neutralFeedback.addEventListener("click", function () {
   neutralFeedback.style.backgroundColor = "#66ccff";
@@ -40,16 +30,6 @@ neutralFeedback.addEventListener("click", function () {
     document.querySelector(".submitted-feedback-happy").style.display = "none";
     document.querySelector(".container").style.display = "none";
   });
-
-  document
-    .querySelector(".submitted-feedback-neutral")
-    .addEventListener("click", function (e) {
-      document.querySelector(".container").style.display = "block";
-      document.querySelector(".container").style.display = "flex";
-
-      document.querySelector(".submitted-feedback-neutral").style.display =
-        "none";
-    });
 });
 happyFeedback.addEventListener("click", function () {
   happyFeedback.style.backgroundColor = "#66ccff";
@@ -64,14 +44,4 @@ happyFeedback.addEventListener("click", function () {
       "none";
     document.querySelector(".container").style.display = "none";
   });
-
-  document
-    .querySelector(".submitted-feedback-happy")
-    .addEventListener("click", function (e) {
-      document.querySelector(".container").style.display = "block";
-      document.querySelector(".container").style.display = "flex";
-
-      document.querySelector(".submitted-feedback-happy").style.display =
-        "none";
-    });
 });
